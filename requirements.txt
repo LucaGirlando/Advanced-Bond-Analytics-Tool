@@ -1,4 +1,4 @@
-#Streamlit
-#pandas
-#numpy
-#scipy
+Streamlit
+pandas
+numpy
+scipy
