@@ -4,6 +4,12 @@ import streamlit as st
 from scipy.optimize import newton
 from datetime import datetime
 
+st.markdown("""
+    <p style="font-size: 12px; text-align: center;">
+        Created by: <a href="https://www.linkedin.com/in/luca-girlando-775463302/" target="_blank">Luca Girlando</a>
+    </p>
+""", unsafe_allow_html=True)
+
 # Function to calculate the Yield to Maturity (YTM) after tax
 def calculate_ytm(face_value, price, coupon_rate, years_to_maturity, tax_rate, frequency=1):
     def ytm_func(ytm):
