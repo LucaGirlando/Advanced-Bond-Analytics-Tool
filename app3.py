@@ -4,6 +4,9 @@ import streamlit as st
 from scipy.optimize import newton
 from datetime import datetime
 
+# Configurazione della pagina
+st.set_page_config(page_title="Bond Calculator and Comparator", page_icon="📈", layout="wide")
+
 st.markdown("""
     <p style="font-size: 12px; text-align: center;">
         Created by: <a href="https://www.linkedin.com/in/luca-girlando-775463302/" target="_blank">Luca Girlando</a>
