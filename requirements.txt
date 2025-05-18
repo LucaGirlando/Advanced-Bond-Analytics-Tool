@@ -2,6 +2,6 @@ streamlit
 numpy
 pandas
 plotly
-python
 scipy
 matplotlib
+python-dateutil
