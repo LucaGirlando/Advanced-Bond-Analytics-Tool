@@ -1,23 +1,17 @@
-# Bond Calculator and Comparator
+# Advanced Bond Analytics WebApp  
+A Streamlit-based toolkit for fixed-income securities analysis.
 
-This Streamlit-based web application allows users to calculate key bond metrics such as Yield to Maturity (YTM), Duration, Net Total Return after tax, and the YTM/Duration ratio. It also offers a comparison tool for multiple bonds, allowing investors to analyze bonds and sort them by their attractiveness (YTM/Duration ratio).
+## Features  
+- **Bond Pricing**: Calculate price/yield/duration for complex bonds (callable, step-up, etc.).  
+- **Portfolio Tools**: Analyze portfolio risk, diversification, and performance under shocks.  
+- **Yield Curve Modeling**: Fit curves using Nelson-Siegel/Svensson models and compute forward rates.  
+- **Credit Risk**: Implement CreditMetrics/CreditRisk+ models with PD/LGD inputs.  
+- **Comparative Analysis**: Rank bonds by relative value using multi-factor scoring.  
 
-## Key Features:
-- **Yield to Maturity (YTM) after tax**: Calculates the annualized return considering taxes.
-- **Duration**: Measures the bond's sensitivity to interest rate changes.
-- **Net Total Return after tax**: Calculates the overall return after accounting for taxes.
-- **YTM/Duration Ratio**: Compares the return relative to the bond's interest rate risk, highlighting bonds that provide the best return per unit of risk.
-- **Bond Comparison**: Compare up to 20 bonds and sort them by the YTM/Duration ratio.
+## Usage  
+1. Select an analysis module from the sidebar.  
+2. Input bond/portfolio parameters.  
+3. View interactive charts (Plotly) and export results.  
 
-## Usage:
-1. **Bond Metrics Section**: Enter the bond details (Face Value, Price, Coupon Rate, Tax Rate, and Years to Maturity) to calculate the YTM after tax, Duration, and Net Total Return after tax.
-2. **Bond Comparison Section**: Enter details for multiple bonds (up to 20) and calculate their YTM after tax, Duration, and YTM/Duration ratio. The bonds are sorted in descending order based on their YTM/Duration ratio.
-
-## Requirements
-
-To run the application, you will need:
-- Python 3.8+
-- Streamlit
-- pandas
-- numpy
-- scipy
+## Requirements  
+See `requirements.txt`.  
