@@ -949,7 +949,7 @@ elif analysis_type == "Risk Metrics":
         with col1:
             risk_bond_type = st.selectbox(
                 "Bond Type:",
-                ["Vanilla Fixed Rate", "Callable", "Putable", "Floating Rate"],
+                ["Vanilla Fixed Rate"],
                 index=0,
                 key="risk_bond_type"
             )
